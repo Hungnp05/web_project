@@ -63,7 +63,7 @@ if ($products_query) {
 </head>
 <body>
     <h1>Luisgaga Flower Shop</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style = "background-color: #C3F3A0;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -118,10 +118,10 @@ if ($products_query) {
         </div>
     </nav>
 
-    <main>
+    <main style = "background-color: #F5F5F5;">
         <div class="container-fluid">
             <!-- Main Banner -->
-            <div class="main-banner text-center py-5" style="background-color: #C3F3A0; height: 120px; display: flex; flex-direction: column; justify-content: center;">
+            <div class="main-banner text-center py-5 banner-main" style="background-color: #C3F3A0; height: 120px; display: flex; flex-direction: column; justify-content: center;">
                 <h1 class="display-4">HOT Deal Everyday</h1>
                 <p class="mt-3">Follow us: 
                     <a href="https://www.facebook.com/nguyenphu.hung" target="_blank">Facebook</a> | 
@@ -193,6 +193,45 @@ if ($products_query) {
                 </div>
             </div>
         </div>
+
+        <footer style="background-color:rgb(101, 238, 158); padding: 40px 20px; color: #333; margin-top: 15px;">
+    <div class="footer-container" style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>Products & Services</h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="#" style="text-decoration: none; color: #333;">Flowers</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">Bauquet</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>Online Shopping</h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="#" style="text-decoration: none; color: #333;">Warranty</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">Best Prices</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">Customer Programs</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>Exclusive Programs</h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="#" style="text-decoration: none; color: #333;">Customer Benefits</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">Preferred Stores</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">VIP Member</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px; margin: 10px;">
+            <h4>Need Assistance?</h4>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="#" style="text-decoration: none; color: #333;">Customer Support</a></li>
+                <li><a href="#" style="text-decoration: none; color: #333;">Service Center</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <p>&copy; 2025 Zaun. NO SALE TO PILTOVER.</p>
+        <p>Contact US</p>
+    </div>
+</footer>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

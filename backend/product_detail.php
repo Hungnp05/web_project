@@ -160,14 +160,12 @@ if (!$product) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
     $(document).ready(function() {
-        // Xử lý thêm vào giỏ hàng
         $('#add-to-cart-form').submit(function(e) {
             e.preventDefault();
             <?php if (isset($_SESSION['user_id'])): ?>
                 $.post('cart.php', $(this).serialize() + '&add_to_cart=1', function(response) {
                     alert(response.message);
                     if (response.status === 'success') {
-                        // Có thể cập nhật số lượng giỏ hàng ở đây nếu cần
                     }
                 }, 'json').fail(function() {
                     alert('An error occurred while adding product to cart!');
