@@ -194,7 +194,7 @@ if ($products_query) {
             </div>
         </div>
 
-        <footer style="background-color:rgb(101, 238, 158); padding: 40px 20px; color: #333; margin-top: 15px;">
+        <footer style="background-color:rgb(101, 238, 158); padding: 40px 20px; color: #333; margin-top: 15px; height: 200px;">
     <div class="footer-container" style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
         <div style="flex: 1; min-width: 200px; margin: 10px;">
             <h4>Products & Services</h4>
@@ -227,8 +227,8 @@ if ($products_query) {
             </ul>
         </div>
     </div>
-    <div style="text-align: center; margin-top: 20px;">
-        <p>&copy; 2025 Zaun. NO SALE TO PILTOVER.</p>
+    <div style="text-align: center; margin-top: 20px; ">
+        <p>&copy; 2025 Luisgaga. BEST CHOICE EVER.</p>
         <p>Contact US</p>
     </div>
 </footer>
