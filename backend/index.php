@@ -185,7 +185,7 @@ if ($products_query) {
                                                 </div>
                                             </div>
                                         </div>  
-                                    <?php endforeach; ?>
+                                    <?php endforeach; ?>    
                                 </div>
                             </section>
                         <?php endforeach; ?>
